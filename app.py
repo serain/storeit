@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import os
 from flask import Flask, render_template_string, request
 from flask_pymongo import PyMongo
