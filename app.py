@@ -36,4 +36,4 @@ def hello():
     items = mongo.db.stuff.find()
     return render_template_string(HTML, items=items)
 
-app.run(host='0.0.0.0', port=80)
+app.run(host='0.0.0.0', port=3000)
